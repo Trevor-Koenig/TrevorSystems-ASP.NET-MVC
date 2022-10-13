@@ -23,8 +23,7 @@ using (var scope = app.Services.CreateScope())
     var um = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
     var rm = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
 
-    //await DB.InitializeUsers(um, rm);
-    //await DB.InitializeApplications(um);
+    await DB.InitializeUsers(um, rm);
 }
 
 // Configure the HTTP request pipeline.
