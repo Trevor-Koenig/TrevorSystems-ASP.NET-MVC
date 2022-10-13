@@ -8,6 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Areas\Data\User.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Areas\Data\User.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\images\banner.jpg" />
     <None Include="wwwroot\images\FileShare.png" />
     <None Include="wwwroot\images\favicon.png" />
