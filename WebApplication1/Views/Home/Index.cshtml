@@ -2,7 +2,44 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+
+<body class="bg-dark">
+
+    <div class="bg-image banner"><img src="images/banner.jpg" alt="Heading banner to main page"></div>
+
+    <a class="btn mb-3" asp-area="" asp-controller="Home" asp-action="OpenMediaVault">
+        <div class="card bg-dark text-center text-white figure" style="width: 18rem;">
+            <img src="images/OMV.png" class="card-img-top figure" alt="Open Media Vault icon">
+            <div class="card-body">
+                <h5 class="card-title">Open Media Vault</h5>
+            </div>
+        </div>
+    </a>
+    <a class="btn mb-3" asp-area="" asp-controller="Home" asp-action="OpenMediaVault">
+        <div class="card bg-dark text-center text-white figure" style="width: 18rem;">
+            <img src="images/fileShare.png" class="card-img-top figure" alt="FileShare porgram icon">
+            <div class="card-body">
+                <h5 class="card-title">File Share</h5>
+            </div>
+        </div>
+    </a>
+    <a class="btn mb-3" asp-area="" asp-controller="Home" asp-action="OpenMediaVault">
+        <div class="card bg-dark text-center text-white figure" style="width: 18rem;">
+            <img src="images/me.png" class="card-img-top figure" alt="picture of website creator">
+            <div class="card-body">
+                <h5 class="card-title">About</h5>
+            </div>
+        </div>
+    </a>
+    <a class="btn mb-3" asp-area="" asp-controller="Home" asp-action="OpenMediaVault">
+        <div class="card bg-dark text-center text-white figure" style="width: 18rem;">
+            <img src="images/smartMirror.jpg" class="card-img-top figure" alt="picture of a smart mirror I created">
+            <div class="card-body">
+                <h5 class="card-title">Smart Mirror Project</h5>
+            </div>
+        </div>
+    </a>
+</body>
+</html>
