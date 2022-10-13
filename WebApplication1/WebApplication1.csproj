@@ -10,7 +10,7 @@
   <ItemGroup>
     <None Include="wwwroot\images\banner.jpg" />
     <None Include="wwwroot\images\FileShare.png" />
-    <None Include="wwwroot\images\icon.png" />
+    <None Include="wwwroot\images\favicon.png" />
     <None Include="wwwroot\images\logo.png" />
     <None Include="wwwroot\images\me.png" />
     <None Include="wwwroot\images\Mobile menu.png" />
