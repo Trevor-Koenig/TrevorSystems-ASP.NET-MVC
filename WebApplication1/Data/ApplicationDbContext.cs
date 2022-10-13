@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using static System.Net.Mime.MediaTypeNames;
 
-namespace WebApplication1.Data
+namespace TrevorSystems.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
