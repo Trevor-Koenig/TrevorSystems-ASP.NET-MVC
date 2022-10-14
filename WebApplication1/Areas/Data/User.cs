@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
 
-namespace WebApp1.Areas.Identity.Data;
+namespace TrevorSystems.Areas.Identity.Data;
 
 public class User : IdentityUser
 {
     [PersonalData]
-    public DateTime DOB { get; set; }
+    public DateTime? DOB { get; set; }
 
     // these fields may potentially be used for personal high scores in games I may add in the future
     [ScaffoldColumn(false)]
